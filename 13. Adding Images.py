@@ -6,6 +6,8 @@ import cv2
 img1 = cv2.imread('C:\Users\Subham\Documents\GitHub\OpenCV\ex.jpg')
 img2 = cv2.imread('C:\Users\Subham\Documents\GitHub\OpenCV\ex2.jpg')
 
+print(img1.shape)
+print(img2.shape)
 #Adding two images using cv2.add() function
 img = cv2.add(img1,img2)
 
